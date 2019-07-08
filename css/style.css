@@ -1,0 +1,378 @@
+
+
+.servicesContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+
+
+.projectDetails-Heading{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.projectDetails-Text{
+    width: 70%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+/* project deatials menubar start      */
+.project-List-MenuBar{
+    width: 60%;
+     margin: 25px auto;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.project-List-MenuBar ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.project-List-MenuBar ul li{    
+    display: inline-block;
+    padding: 3px 12px;
+    border:solid;
+    border-color: gray;
+    border-width: 1px;
+}
+/* project details menubar ends      */
+
+/* project details photos start      */
+
+.rowDesign{
+    margin-bottom: 25px;
+    
+}
+.photoColumn{                       
+    /* background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    padding: 0px; */
+    /* margin-right: 20px; */
+    position: relative;
+    
+}
+
+.imgDiv{
+    width: 100%;
+}
+
+.imgDiv img{
+    width: 100%;
+}
+
+.photoText{
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #FBFAF8;
+       
+}
+
+
+/* project details photos end      */
+
+
+.loadButtonInner{
+    color: white;
+    background-color: #998677;
+    padding: 10px 30px;
+}
+
+.loadButtonOuter{
+    text-align: center;
+
+}
+
+
+
+   /* video part start */
+
+ .videoWrapper {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}   
+
+
+.videoWrapper iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.videoHeading{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 50%;
+}
+
+/* .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} */
+
+/* video part end */
+
+/* Mobile device explained start*/
+
+.content1{
+    font-size: 18px;
+    color:#8D8D8B;
+    
+}
+
+.content1 h2{
+    color: #535351;
+}
+
+.mobileText{
+    padding-top: 8%;
+}
+.mobileTextList{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #8D8D8B;
+
+}
+.mobileTextList ul{
+    list-style-type: none;
+}
+
+.mobileTextList ul li{
+   display: block;
+   margin-bottom: 10px;
+}
+
+.paragraph{
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Mobile device explained end*/
+
+/* icons with work done details start*/
+
+.workDoneDetails{
+    width: 100%;
+    background-color: #2C211D;
+    padding-top: 20px; 
+}
+
+.workDoneDetails-Inner{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.dataColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    color: white;
+    padding: 30px;
+}
+
+.iconText{
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 12px;
+}
+
+.number{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+/* workDone Details ends */
+
+/* recent posts starts */
+
+.recentPosts-OuterDiv{
+    padding-bottom: 1%;
+}
+.recentPost-Text{
+   padding-bottom: 20px;
+}
+
+.dateDiv{                       /* date div styling*/
+    width: 12%;
+    position: absolute;
+    left: 9%;
+    top: 7%;
+    text-align: center;
+    background-color: #252525;
+    color: white;
+    
+    
+}
+
+.noDiv{
+    background-color: #363636;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.monthDiv{
+    margin: 0 auto;
+    padding: 2px 4px;
+}
+
+/* icons with work done details end*/
+
+
+/* recent post start */
+.moveImagesArrow{
+    margin: 3% 0;
+    text-align: center;
+    
+}
+
+
+
+
+
+/* partnerDetails start */
+
+/* .partnerDetails{
+    background-image: url("partners-Background-Img.jpg");
+    background: url( "images/partners-Background-Img.jpg"); 
+    background-size: cover;
+    background-size: 100% auto;
+    width: 100%;
+    height: 500px;
+    background-image: url("images/partners-Background-Img.jpg");
+} */
+
+
+/* footer  part 1 starts*/
+.footer{
+    width: 100%;
+    background-color: #191919;
+    text-align: justify;
+    color: #8D8D8B;
+}
+
+.footerContainer{
+    padding-top: 4%;
+    padding-bottom: 4%;
+} 
+
+/* footer column 1 starts */
+
+.footer-col1-head{
+    display: flex;
+    font-family: initial;
+    color: white;
+    padding-top: 10%;
+    /* padding-bottom: 10%; */
+}
+
+.col1-Text{
+    margin: 20px auto;
+}
+
+
+.footerCol-1{
+   
+}
+.footerCol-1 a{
+    color: white;
+
+}
+
+/* footer column 1 ends */
+
+/* footer column 2 starts */
+
+.footerCol-2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+}
+
+.footer-col2-head{
+    color: white;
+    font-size: 24px;
+    /* padding-top: 10%;*/
+} 
+
+.footer-col2-text1{
+    /* padding-top: 6% ; */
+    border-bottom: 1px solid gray;
+    margin-top: 5%;
+    padding: 5% 0px;
+    
+}
+
+.footer-col2-text2{
+    font-size: 15px;
+    /* padding-top: 5% ; */
+    border-bottom: 1px solid gray;
+    color: blanchedalmond;
+    padding: 5% 0px;
+    
+}
+
+.footer-col2-text3{
+    /* padding-top: 5% ; */
+    padding: 5% 0px;
+}
+
+/* footer column 2 ends */
+
+/* footer column 3 . we used same classes as we use in column 1 */
+
+.footerImages-1{
+    margin-top: 5%;
+    /* padding: 5% 0px; */
+}
+
+/* partner details starts */
+
+.partnerDetails{
+    position: relative;
+    text-align: center;  
+}
+
+.partner-Bg-Image img{
+    max-width: 100%;
+}
+.partner-Logo-image{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    display: flex;
+    text-align: center;
+}
+
+.logoImage{
+  margin: auto 4%;
+  
+}
